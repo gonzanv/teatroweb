@@ -345,11 +345,13 @@
 		payment_type: 'Tarjeta',
 		currency: 'ARS',
 		items: [{
-		item_name: 'Entrada Salomé',
-		item_category: 'Teatro',
-		quantity: 1,
-		price: 50000
-		}]
+			item_id: 'ENTRADA-SALOME',
+			item_name: 'Entrada Salome',
+			affiliation: 'Teatro Jujuy',
+			item_category: 'Teatro',
+			quantity: 1,
+			price: 50000
+			}]
 	});
 
 	// Esperar 500ms antes de redirigir
@@ -357,6 +359,6 @@
 		window.location.href = "compraexitosa.html";
 	}, 500);
 	}
-</script>
+</script>	
 </body>
 </html>
